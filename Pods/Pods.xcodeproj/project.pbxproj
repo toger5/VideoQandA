@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AF3019B706FD4924979E50D4498AD7 /* Pods-Video Q&AUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CDDA793724F5CF491130493DAD9922 /* Pods-Video Q&AUITests-dummy.m */; };
+		16A5EF04C2C471D6125D7C70FB54E55A /* Pods-Video Q&A-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E989DF6B8E773D46F36627EC7DFF4E8F /* Pods-Video Q&A-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F093ECABE834D8841AAF033A2ABCC5E /* Pods-Video Q&AUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4CFF8E526445604721D0085C32E35E /* Pods-Video Q&AUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E28DB1C62B162010F2558FA24289071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9CD2D4D8EA22E5531029A707BC82EB44 /* Pods-Video Q&ATests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BFA472F0DD3D7941C7016D6AC73D8C /* Pods-Video Q&ATests-dummy.m */; };
+		A0B716BE9BAD589DFF505DDE69E0C4A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D277595F5FA968C9A1835C4DBCB2073C /* Pods-Video Q&ATests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78CF09BDB99FFC3797ED5F7030232EE2 /* Pods-Video Q&ATests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE157308661AEAFD792CCFBAACE9060B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F643DAC04769921FF3562E5F6946BA65 /* Pods-Video Q&A-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B47D84A893C9F6E1CDD6ABB4FE24CD20 /* Pods-Video Q&A-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03E9D400F387BD3793A8B6AA1DC6B441 /* BodyParts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BodyParts.h; path = SDK/lib/backendless/include/BodyParts.h; sourceTree = "<group>"; };
+		066FF63E8F68CF39F47827180817D845 /* MediaPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaPlayer.h; path = SDK/lib/backendless/include/MediaPlayer.h; sourceTree = "<group>"; };
+		077709BBF365180B93CE2546960259B8 /* AMFSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMFSerializer.h; path = SDK/lib/CommLibiOS/include/AMFSerializer.h; sourceTree = "<group>"; };
+		07CAD63078D601BD365A1930C57E7362 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = "SDK/lib/libav-11.4/include/libavutil/sha.h"; sourceTree = "<group>"; };
+		07ED392BB7153B00D07736F9CC3A21C2 /* speex_header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = speex_header.h; path = "SDK/lib/speex-1.2rc2/include/speex_header.h"; sourceTree = "<group>"; };
+		0A6D0202B97D3B251566A31B4A3E0E68 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = "SDK/lib/libav-11.4/include/libavutil/aes.h"; sourceTree = "<group>"; };
+		0A9A2C25BCBD7DEDE91EB25C91B50CB5 /* dv_profile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dv_profile.h; path = "SDK/lib/libav-11.4/include/libavcodec/dv_profile.h"; sourceTree = "<group>"; };
+		0C39A7D1F670B8840F724FC9A0D5274C /* Pods-Video Q&ATests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Video Q&ATests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FC6995A7BABE32886572CEACFF3F4C4 /* avfilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfilter.h; path = "SDK/lib/libav-11.4/include/libavfilter/avfilter.h"; sourceTree = "<group>"; };
+		13450C38CE2DCCD4B002F2614640D52F /* audioconvert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audioconvert.h; path = "SDK/lib/libav-11.4/include/libavutil/audioconvert.h"; sourceTree = "<group>"; };
+		135C7295FD797DC690296EAF1ED49819 /* Pods-Video Q&ATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Video Q&ATests.release.xcconfig"; sourceTree = "<group>"; };
+		15016EF7BD3D9263C675985D8D1502D1 /* GeoCluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoCluster.h; path = SDK/lib/backendless/include/GeoCluster.h; sourceTree = "<group>"; };
+		1672011877E416152E0F45078CEADACF /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "SDK/lib/libav-11.4/include/libavutil/md5.h"; sourceTree = "<group>"; };
+		16DB6B6E9E7E5F45638410B67668DA20 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "SDK/lib/libav-11.4/include/libavresample/version.h"; sourceTree = "<group>"; };
+		1815868FB19BB3DE13B8FA96584B185A /* ProtectedBackendlessGeoQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProtectedBackendlessGeoQuery.h; path = SDK/lib/backendless/include/ProtectedBackendlessGeoQuery.h; sourceTree = "<group>"; };
+		186CD40F8332A3C2C6A7580AC0DDD828 /* vdpau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdpau.h; path = "SDK/lib/libav-11.4/include/libavcodec/vdpau.h"; sourceTree = "<group>"; };
+		18C5E4725A3B13DA798B0A246791C904 /* MPMediaEncoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMediaEncoder.h; path = SDK/lib/MediaLibiOS3x/include/MPMediaEncoder.h; sourceTree = "<group>"; };
+		19BAE11D9DB548151CB936A84A893C6B /* MemoryTicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MemoryTicker.h; path = SDK/lib/CommLibiOS/include/MemoryTicker.h; sourceTree = "<group>"; };
+		19C80835262B9BBA9872ADA72A691365 /* Pods-Video Q&A-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Video Q&A-resources.sh"; sourceTree = "<group>"; };
+		1E943CFA07A51BAF3F6C290B1BFD0F5C /* avutil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avutil.h; path = "SDK/lib/libav-11.4/include/libavutil/avutil.h"; sourceTree = "<group>"; };
+		2102691A23310512D6C698676343B268 /* BackendlessGeoQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessGeoQuery.h; path = SDK/lib/backendless/include/BackendlessGeoQuery.h; sourceTree = "<group>"; };
+		21992603F4AECC366A0D8C720F5C16CE /* avresample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avresample.h; path = "SDK/lib/libav-11.4/include/libavresample/avresample.h"; sourceTree = "<group>"; };
+		2333E4C1C8175215A8D3268C016A453A /* ObjectProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ObjectProperty.h; path = SDK/lib/backendless/include/ObjectProperty.h; sourceTree = "<group>"; };
+		235A51AF73BAC7D3E82CD4753DCEB65E /* HashMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HashMap.h; path = SDK/lib/backendless/include/HashMap.h; sourceTree = "<group>"; };
+		25D40BF03AC8BD506D1DB9854021CC5A /* avformat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avformat.h; path = "SDK/lib/libav-11.4/include/libavformat/avformat.h"; sourceTree = "<group>"; };
+		26B0CEF6EC31D1DECCCC37B14B9DAAA4 /* Backendless.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Backendless.h; path = SDK/lib/backendless/include/Backendless.h; sourceTree = "<group>"; };
+		2A097F938279DE701DA9156BAA42DE66 /* MediaPublisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaPublisher.h; path = SDK/lib/backendless/include/MediaPublisher.h; sourceTree = "<group>"; };
+		2A430C92A8C9FDBD78D12DAF1C99D97C /* DeviceRegistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceRegistration.h; path = SDK/lib/backendless/include/DeviceRegistration.h; sourceTree = "<group>"; };
+		2CB9645BBEA39F58FB3855EB6D5B7E3F /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "SDK/lib/libav-11.4/include/libavformat/version.h"; sourceTree = "<group>"; };
+		2CCD3B016D47032E9C7FECC5A9BFBD71 /* buffersink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffersink.h; path = "SDK/lib/libav-11.4/include/libavfilter/buffersink.h"; sourceTree = "<group>"; };
+		2DFC8E50559F45A37A802BE6223CE495 /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log.h; path = "SDK/lib/libav-11.4/include/libavutil/log.h"; sourceTree = "<group>"; };
+		2EED590C4D773D230D4F90B2434B3C8D /* vaapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vaapi.h; path = "SDK/lib/libav-11.4/include/libavcodec/vaapi.h"; sourceTree = "<group>"; };
+		2FE8FB0B2E28369821294551CC639220 /* audio_fifo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_fifo.h; path = "SDK/lib/libav-11.4/include/libavutil/audio_fifo.h"; sourceTree = "<group>"; };
+		30CF7017911B1ED2EBED82B96C8B7CB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31883C4326F6FCBB73AB82E0E3F72C61 /* MPMediaDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMediaDecoder.h; path = SDK/lib/MediaLibiOS3x/include/MPMediaDecoder.h; sourceTree = "<group>"; };
+		32DE8BBC83884E6B05D7573402E95E90 /* AtomicCounters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AtomicCounters.h; path = SDK/lib/backendless/include/AtomicCounters.h; sourceTree = "<group>"; };
+		33381C2FE2D7F729977B8D59D8497D15 /* buffersrc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffersrc.h; path = "SDK/lib/libav-11.4/include/libavfilter/buffersrc.h"; sourceTree = "<group>"; };
+		34B25A5E1B0BE89F2C772F8B9DF3E245 /* speex_config_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = speex_config_types.h; path = "SDK/lib/speex-1.2rc2/include/speex_config_types.h"; sourceTree = "<group>"; };
+		36F0121DDABD20A3D732A479B9F1FFF1 /* Presence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Presence.h; path = SDK/lib/backendless/include/Presence.h; sourceTree = "<group>"; };
+		379164BE43C8E2BE0C67F7F724597709 /* avconfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avconfig.h; path = "SDK/lib/libav-11.4/include/libavutil/avconfig.h"; sourceTree = "<group>"; };
+		37AF6BC3BDE8A08E044D638B4D000E43 /* speex_stereo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = speex_stereo.h; path = "SDK/lib/speex-1.2rc2/include/speex_stereo.h"; sourceTree = "<group>"; };
+		37F1E5DA61653E4BDA9231AF69B74C86 /* file.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file.h; path = "SDK/lib/libav-11.4/include/libavutil/file.h"; sourceTree = "<group>"; };
+		3A5C9BF75FB248FD69413A3B0DD7DDCC /* AbstractProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractProperty.h; path = SDK/lib/backendless/include/AbstractProperty.h; sourceTree = "<group>"; };
+		3CFC0402D302048F3760227239E724B7 /* Pods_Video_Q_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Video_Q_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D10E5159ECFF9F08D0E75DC3A22DEF2 /* BETableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BETableView.h; path = SDK/lib/backendless/include/BETableView.h; sourceTree = "<group>"; };
+		3E132A0EE2F097873F24596410138C53 /* downmix_info.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = downmix_info.h; path = "SDK/lib/libav-11.4/include/libavutil/downmix_info.h"; sourceTree = "<group>"; };
+		3E76A962C864AABE9639E7FC76E4C8B9 /* avdevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avdevice.h; path = "SDK/lib/libav-11.4/include/libavdevice/avdevice.h"; sourceTree = "<group>"; };
+		3E9DEDAC1A02A7B8774454A3A940EC0C /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "SDK/lib/libav-11.4/include/libavfilter/version.h"; sourceTree = "<group>"; };
+		3ED4543530F741E4675B3B9F46A0846B /* BEMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMapView.h; path = SDK/lib/backendless/include/BEMapView.h; sourceTree = "<group>"; };
+		420ADC995C5493DF6664A93F4AFAB7AC /* intreadwrite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intreadwrite.h; path = "SDK/lib/libav-11.4/include/libavutil/intreadwrite.h"; sourceTree = "<group>"; };
+		4275EDE72DD06A98B571EE58D8E7ED2B /* IDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IDataStore.h; path = SDK/lib/backendless/include/IDataStore.h; sourceTree = "<group>"; };
+		4299922302F3CC86F7221764C45119F1 /* pixdesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixdesc.h; path = "SDK/lib/libav-11.4/include/libavutil/pixdesc.h"; sourceTree = "<group>"; };
+		4378938C990BDB6BBADE8E298E53BEBA /* Pods-Video Q&AUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Video Q&AUITests-resources.sh"; sourceTree = "<group>"; };
+		43CD6DC7B11132F286FFE4A138F52AAA /* MediaService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaService.h; path = SDK/lib/backendless/include/MediaService.h; sourceTree = "<group>"; };
+		44788A6D38FFB889223DB16FC91FB71B /* speex_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = speex_types.h; path = "SDK/lib/speex-1.2rc2/include/speex_types.h"; sourceTree = "<group>"; };
+		46CC6CE9A8D893E984DB7B230591D9E3 /* GeoFence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoFence.h; path = SDK/lib/backendless/include/GeoFence.h; sourceTree = "<group>"; };
+		495E4F23DC0655C275F60E966466499E /* speex_callbacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = speex_callbacks.h; path = "SDK/lib/speex-1.2rc2/include/speex_callbacks.h"; sourceTree = "<group>"; };
+		4992B5751AF3C83550E3FA0F7BD2C0F8 /* BESubscription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BESubscription.h; path = SDK/lib/backendless/include/BESubscription.h; sourceTree = "<group>"; };
+		49D89D98D75144F52F4EF8ABEC7F4DEC /* channel_layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = channel_layout.h; path = "SDK/lib/libav-11.4/include/libavutil/channel_layout.h"; sourceTree = "<group>"; };
+		4C56FA241AC286F6DAA03650B6F23287 /* avassert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avassert.h; path = "SDK/lib/libav-11.4/include/libavutil/avassert.h"; sourceTree = "<group>"; };
+		4ECBA6BBC15A94DAF8F6978780B5A1C5 /* stereo3d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stereo3d.h; path = "SDK/lib/libav-11.4/include/libavutil/stereo3d.h"; sourceTree = "<group>"; };
+		4F09EE8F1203FC5679E9D6C4C7E66690 /* speex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = speex.h; path = "SDK/lib/speex-1.2rc2/include/speex.h"; sourceTree = "<group>"; };
+		50348BDF5488483238E9507157F06D2D /* CacheFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CacheFactory.h; path = SDK/lib/backendless/include/CacheFactory.h; sourceTree = "<group>"; };
+		5104D3F04E96CD403FAB9041B20EF236 /* vda.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vda.h; path = "SDK/lib/libav-11.4/include/libavcodec/vda.h"; sourceTree = "<group>"; };
+		52034C92B7176FB22311981D792BA23A /* error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = error.h; path = "SDK/lib/libav-11.4/include/libavutil/error.h"; sourceTree = "<group>"; };
+		525C4B2DBAD30C1EC56B9BCBD9897ADF /* Pods-Video Q&A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Video Q&A.release.xcconfig"; sourceTree = "<group>"; };
+		5427B5D6C67085417B7778B89A21D517 /* replaygain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = replaygain.h; path = "SDK/lib/libav-11.4/include/libavutil/replaygain.h"; sourceTree = "<group>"; };
+		547793FB9541CA337AAEA98E84F3AC58 /* GeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoPoint.h; path = SDK/lib/backendless/include/GeoPoint.h; sourceTree = "<group>"; };
+		5559EAE5B1C412001F1D4B1D3397EDAB /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "SDK/lib/libav-11.4/include/libswscale/version.h"; sourceTree = "<group>"; };
+		56B67AA0280457C3B3B4B38B9CF99B7C /* DataStoreFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataStoreFactory.h; path = SDK/lib/backendless/include/DataStoreFactory.h; sourceTree = "<group>"; };
+		58B52BE82D846EFB0098EA4CEBC629EC /* x264_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x264_config.h; path = SDK/lib/x264/include/x264_config.h; sourceTree = "<group>"; };
+		59622AF64DEFA3F522A6D697CABB91A6 /* MessageStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessageStatus.h; path = SDK/lib/backendless/include/MessageStatus.h; sourceTree = "<group>"; };
+		5970A280A78694B4DA229F62E054ABCD /* attributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = attributes.h; path = "SDK/lib/libav-11.4/include/libavutil/attributes.h"; sourceTree = "<group>"; };
+		5A12D3E6E3F08F755F2A6400F6260794 /* BECollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BECollectionView.h; path = SDK/lib/backendless/include/BECollectionView.h; sourceTree = "<group>"; };
+		5B970400111801CA0D88A3AEB69BBDA0 /* lfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lfg.h; path = "SDK/lib/libav-11.4/include/libavutil/lfg.h"; sourceTree = "<group>"; };
+		5C180EF6B5DEB271CE9924A4C74C1694 /* x264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x264.h; path = SDK/lib/x264/include/x264.h; sourceTree = "<group>"; };
+		5FF7677730C8985CDF12861367275219 /* parseutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parseutils.h; path = "SDK/lib/libav-11.4/include/libavutil/parseutils.h"; sourceTree = "<group>"; };
+		6072B1690EA56924E53123BFD641DEF2 /* IAttributeStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAttributeStore.h; path = SDK/lib/CommLibiOS/include/IAttributeStore.h; sourceTree = "<group>"; };
+		61CDDA793724F5CF491130493DAD9922 /* Pods-Video Q&AUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Video Q&AUITests-dummy.m"; sourceTree = "<group>"; };
+		63B37DD6CD8B843176D13A57A99EAE3A /* avcodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avcodec.h; path = "SDK/lib/libav-11.4/include/libavcodec/avcodec.h"; sourceTree = "<group>"; };
+		64027BAA4E0AE520A9207CFFFF2D8FF6 /* frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = frame.h; path = "SDK/lib/libav-11.4/include/libavutil/frame.h"; sourceTree = "<group>"; };
+		683969A665AE643F7C86EF5F07D2E5F2 /* BackendlessCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessCollection.h; path = SDK/lib/backendless/include/BackendlessCollection.h; sourceTree = "<group>"; };
+		6BBE898B600AEF94A4D346A0F173A3B4 /* Types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Types.h; path = SDK/lib/CommLibiOS/include/Types.h; sourceTree = "<group>"; };
+		6C27C7C1300282308502F054F4F2C645 /* BackendlessCachePolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessCachePolicy.h; path = SDK/lib/backendless/include/BackendlessCachePolicy.h; sourceTree = "<group>"; };
+		6C775FD1079CF3609EA8447E6DB688B0 /* avfft.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfft.h; path = "SDK/lib/libav-11.4/include/libavcodec/avfft.h"; sourceTree = "<group>"; };
+		6C92EAE88972D41507B1CDC8B98F50BB /* BEFileInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEFileInfo.h; path = SDK/lib/backendless/include/BEFileInfo.h; sourceTree = "<group>"; };
+		6CF2FEC3EA1B50F6D2E82D0A2A103CF1 /* adler32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = adler32.h; path = "SDK/lib/libav-11.4/include/libavutil/adler32.h"; sourceTree = "<group>"; };
+		6D40B978335D1D64E9CEC2F4788117AC /* Pods_Video_Q_AUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Video_Q_AUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD76C869D715758B5548F34F2036BF7 /* WeborbClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeborbClient.h; path = SDK/lib/CommLibiOS/include/WeborbClient.h; sourceTree = "<group>"; };
+		6E90EC4ADF93069870F65BB46138E747 /* Events.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Events.h; path = SDK/lib/backendless/include/Events.h; sourceTree = "<group>"; };
+		6FDF4CDA33326DD4FC709830520DA1AB /* dxva2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dxva2.h; path = "SDK/lib/libav-11.4/include/libavcodec/dxva2.h"; sourceTree = "<group>"; };
+		70F2C2E5E9E1143E807137A1B271183C /* ICacheService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICacheService.h; path = SDK/lib/backendless/include/ICacheService.h; sourceTree = "<group>"; };
+		7103963E5D6B2358B4E1F08B46E35277 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E5D8B836687B07D25EEA8CB10C3C10 /* Pods-Video Q&A-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Video Q&A-frameworks.sh"; sourceTree = "<group>"; };
+		72CEB449515E94E9FFD32162E06716DF /* Pods-Video Q&A.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Video Q&A.modulemap"; sourceTree = "<group>"; };
+		73048ACB19809229429693179AC197B0 /* Pods-Video Q&A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Video Q&A.debug.xcconfig"; sourceTree = "<group>"; };
+		7575753A72FA2C6EA0E3F8BB3FC52C79 /* Logger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = SDK/lib/backendless/include/Logger.h; sourceTree = "<group>"; };
+		76C69CC3473A60C462D2007D4C4B84B2 /* Pods-Video Q&AUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Video Q&AUITests.modulemap"; sourceTree = "<group>"; };
+		77E5B38DEF53ECF5F4B486E9527611C5 /* opt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opt.h; path = "SDK/lib/libav-11.4/include/libavutil/opt.h"; sourceTree = "<group>"; };
+		78CF09BDB99FFC3797ED5F7030232EE2 /* Pods-Video Q&ATests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Video Q&ATests-umbrella.h"; sourceTree = "<group>"; };
+		79561331847C160C03E793054BC4F603 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = "SDK/lib/libav-11.4/include/libavutil/blowfish.h"; sourceTree = "<group>"; };
+		7B7F5BEA62DA4C7F3B40BCDA0C6B988F /* MediaPublishOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaPublishOptions.h; path = SDK/lib/backendless/include/MediaPublishOptions.h; sourceTree = "<group>"; };
+		7D864C03152281BB11EFD07AB7B32A99 /* PublishOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PublishOptions.h; path = SDK/lib/backendless/include/PublishOptions.h; sourceTree = "<group>"; };
+		7F26BEF9F519EEB01F0334D4326266B4 /* IPresenceListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPresenceListener.h; path = SDK/lib/backendless/include/IPresenceListener.h; sourceTree = "<group>"; };
+		825224D18537EFE5C83169A47F7D8A3D /* UserProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserProperty.h; path = SDK/lib/backendless/include/UserProperty.h; sourceTree = "<group>"; };
+		831F5F385C2E553B1726D30BCC88EADB /* IServiceCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IServiceCall.h; path = SDK/lib/CommLibiOS/include/IServiceCall.h; sourceTree = "<group>"; };
+		85A698AFAFBEA0F79D4A11E21B65E793 /* IMediaStreamer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMediaStreamer.h; path = SDK/lib/backendless/include/IMediaStreamer.h; sourceTree = "<group>"; };
+		8B7A2997CBCE0EDD54798D32E7316435 /* ICallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICallback.h; path = SDK/lib/backendless/include/ICallback.h; sourceTree = "<group>"; };
+		8C4503AA596A43451377E230B939A7EB /* avio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avio.h; path = "SDK/lib/libav-11.4/include/libavformat/avio.h"; sourceTree = "<group>"; };
+		8C8B93FEEC89B21A5C0B41C40BC39B21 /* fifo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fifo.h; path = "SDK/lib/libav-11.4/include/libavutil/fifo.h"; sourceTree = "<group>"; };
+		8CE2DFF70F1B9690899292CDA175C414 /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = "SDK/lib/libav-11.4/include/libavutil/dict.h"; sourceTree = "<group>"; };
+		8F9BDE50371B897211FC728AAC99B606 /* BackendlessCacheProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessCacheProtocol.h; path = SDK/lib/backendless/include/BackendlessCacheProtocol.h; sourceTree = "<group>"; };
+		8FBA78C0C7E859404590FBB6E97F943D /* FlashorbBinaryReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlashorbBinaryReader.h; path = SDK/lib/CommLibiOS/include/FlashorbBinaryReader.h; sourceTree = "<group>"; };
+		911AC7C8BB865E8076950C4D499027B7 /* Pods-Video Q&AUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Video Q&AUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		912075D75E0214A389E8D1093CA5CC8D /* IRTMProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRTMProtocol.h; path = SDK/lib/CommLibiOS/include/IRTMProtocol.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959E2D9AB7DA1555D48AA08B2F858205 /* RTMPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTMPClient.h; path = SDK/lib/CommLibiOS/include/RTMPClient.h; sourceTree = "<group>"; };
+		9691D5BAEE78BC015EAD7811C885A6A8 /* BackendlessDataQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessDataQuery.h; path = SDK/lib/backendless/include/BackendlessDataQuery.h; sourceTree = "<group>"; };
+		987B6B04C26080C7BF08DE0BC528462A /* FileService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileService.h; path = SDK/lib/backendless/include/FileService.h; sourceTree = "<group>"; };
+		99A7477610FDB54F8F410AFA8103A8EE /* Pods-Video Q&ATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Video Q&ATests.debug.xcconfig"; sourceTree = "<group>"; };
+		99FB3F9DE37D27026C8A4E85584C1688 /* display.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = display.h; path = "SDK/lib/libav-11.4/include/libavutil/display.h"; sourceTree = "<group>"; };
+		9A2D05831BB534169B227A28BB1A6D92 /* BinaryCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BinaryCodec.h; path = SDK/lib/CommLibiOS/include/BinaryCodec.h; sourceTree = "<group>"; };
+		9D68DE930284F586C2869812660A9EB1 /* LocationTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocationTracker.h; path = SDK/lib/backendless/include/LocationTracker.h; sourceTree = "<group>"; };
+		9F5B9A39E63153F9F434B90931063791 /* ISharedObjectListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISharedObjectListener.h; path = SDK/lib/CommLibiOS/include/ISharedObjectListener.h; sourceTree = "<group>"; };
+		A024D34AAA6719194E4657DA27E99FF9 /* MPMediaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPMediaData.h; path = SDK/lib/MediaLibiOS3x/include/MPMediaData.h; sourceTree = "<group>"; };
+		A06AEBAA625A8180EE1722B92CC064C2 /* rational.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rational.h; path = "SDK/lib/libav-11.4/include/libavutil/rational.h"; sourceTree = "<group>"; };
+		A0BFA472F0DD3D7941C7016D6AC73D8C /* Pods-Video Q&ATests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Video Q&ATests-dummy.m"; sourceTree = "<group>"; };
+		A17FFEFDE69E7E31CE3985543BFA5434 /* BroadcastStreamClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BroadcastStreamClient.h; path = SDK/lib/MediaLibiOS3x/include/BroadcastStreamClient.h; sourceTree = "<group>"; };
+		A1DE8BEAE76E68CD87FAA26D05588558 /* xtea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xtea.h; path = "SDK/lib/libav-11.4/include/libavutil/xtea.h"; sourceTree = "<group>"; };
+		A4A6DDE1DC23F148DA326FF34AFF2B1A /* BEAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEAnnotation.h; path = SDK/lib/backendless/include/BEAnnotation.h; sourceTree = "<group>"; };
+		A6AFBCE694CA5EC15A9E3A9C6EDA17BF /* speex_bits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = speex_bits.h; path = "SDK/lib/speex-1.2rc2/include/speex_bits.h"; sourceTree = "<group>"; };
+		A7516923B2139FCF47CD84E5E1300582 /* Pods-Video Q&ATests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Video Q&ATests-frameworks.sh"; sourceTree = "<group>"; };
+		A899BC5ED80D60ECBDF347078E51DB3D /* DataPermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataPermission.h; path = SDK/lib/backendless/include/DataPermission.h; sourceTree = "<group>"; };
+		AA21D0213ABA347E6357A59C29EBFA5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8C22DA3BADA1915671AC2B5C3D536E /* old_pix_fmts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = old_pix_fmts.h; path = "SDK/lib/libav-11.4/include/libavutil/old_pix_fmts.h"; sourceTree = "<group>"; };
+		AFD75306D916CC28C8815B3D0BFFA85D /* macros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = macros.h; path = "SDK/lib/libav-11.4/include/libavutil/macros.h"; sourceTree = "<group>"; };
+		B20230FA7F363EBBB1F5CC8BF5F83443 /* MediaStreamPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaStreamPlayer.h; path = SDK/lib/MediaLibiOS3x/include/MediaStreamPlayer.h; sourceTree = "<group>"; };
+		B293F29E99F54F3DB640B235E497F3F4 /* CacheService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CacheService.h; path = SDK/lib/backendless/include/CacheService.h; sourceTree = "<group>"; };
+		B47D84A893C9F6E1CDD6ABB4FE24CD20 /* Pods-Video Q&A-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Video Q&A-dummy.m"; sourceTree = "<group>"; };
+		B5CB7A90D7149D634D52FABF0311C641 /* IPendingServiceCallback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPendingServiceCallback.h; path = SDK/lib/CommLibiOS/include/IPendingServiceCallback.h; sourceTree = "<group>"; };
+		B6CB7DB404B6BFD8E8A7E24E6C05587C /* IClientSharedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IClientSharedObject.h; path = SDK/lib/CommLibiOS/include/IClientSharedObject.h; sourceTree = "<group>"; };
+		B702555DBDAEDE09D9D193218FE682A7 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "SDK/lib/libav-11.4/include/libavdevice/version.h"; sourceTree = "<group>"; };
+		B75FD267AA4E4E8539E6CC4C4867B6D4 /* bswap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bswap.h; path = "SDK/lib/libav-11.4/include/libavutil/bswap.h"; sourceTree = "<group>"; };
+		B9BCB2E43E6300D78C53F614A3006581 /* Pods-Video Q&AUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Video Q&AUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BCD36116457299B4D4CC919B246A1F48 /* Pods_Video_Q_ATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Video_Q_ATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD02B2704F3D7DD272877AC7F0A06C83 /* VideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VideoPlayer.h; path = SDK/lib/MediaLibiOS3x/include/VideoPlayer.h; sourceTree = "<group>"; };
+		BE9B0748388122D8160F421555C6418F /* PersistenceService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PersistenceService.h; path = SDK/lib/backendless/include/PersistenceService.h; sourceTree = "<group>"; };
+		BF7D2F0DB385CCE68033B9219E918344 /* imgutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgutils.h; path = "SDK/lib/libav-11.4/include/libavutil/imgutils.h"; sourceTree = "<group>"; };
+		C065D4F255E926E9DD4E69E24303D7C6 /* FilePermission.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FilePermission.h; path = SDK/lib/backendless/include/FilePermission.h; sourceTree = "<group>"; };
+		C2126087D92068D037F4A21321E6E20F /* IPersistable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IPersistable.h; path = SDK/lib/CommLibiOS/include/IPersistable.h; sourceTree = "<group>"; };
+		C294283752A65C5992BF5807D80CE6CE /* GeoService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoService.h; path = SDK/lib/backendless/include/GeoService.h; sourceTree = "<group>"; };
+		C30E109B264FA1ED63783B2786B3FC79 /* Message.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Message.h; path = SDK/lib/backendless/include/Message.h; sourceTree = "<group>"; };
+		C35EEF55E1A9C690FC6747E3456C7CB9 /* mathematics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mathematics.h; path = "SDK/lib/libav-11.4/include/libavutil/mathematics.h"; sourceTree = "<group>"; };
+		C3E5DE6069C0C568B0AB103C3966B78B /* DEBUG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DEBUG.h; path = SDK/lib/CommLibiOS/include/DEBUG.h; sourceTree = "<group>"; };
+		C45DDB258DCA2448AC17023C20C725A0 /* AbstractQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractQuery.h; path = SDK/lib/backendless/include/AbstractQuery.h; sourceTree = "<group>"; };
+		C609AE63985B06A4CA963A5934578162 /* CustomService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomService.h; path = SDK/lib/backendless/include/CustomService.h; sourceTree = "<group>"; };
+		C6EAFAD577712CFA14348B9428650D0D /* eval.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eval.h; path = "SDK/lib/libav-11.4/include/libavutil/eval.h"; sourceTree = "<group>"; };
+		C77DC3154C4E59709BDFDD4871E31D25 /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "SDK/lib/libav-11.4/include/libavutil/version.h"; sourceTree = "<group>"; };
+		C8A4DF5824EA0700B019EBD65C0140F4 /* Pods-Video Q&AUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Video Q&AUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8FE7E21BA5268805677638CE0C8C52F /* MessagingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MessagingService.h; path = SDK/lib/backendless/include/MessagingService.h; sourceTree = "<group>"; };
+		CAA301EEA08C653B87D2F0D10B92436A /* BackendlessBeacon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessBeacon.h; path = SDK/lib/backendless/include/BackendlessBeacon.h; sourceTree = "<group>"; };
+		CD0BB699D422CFCB499EAC7706ADCC0F /* UserService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserService.h; path = SDK/lib/backendless/include/UserService.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1719EFBF1B4B354DFFC442397FEFFC1 /* Pods-Video Q&ATests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Video Q&ATests.modulemap"; sourceTree = "<group>"; };
+		D218669F9F327BB4B40217BF48CC64D6 /* MediaPlaybackOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MediaPlaybackOptions.h; path = SDK/lib/backendless/include/MediaPlaybackOptions.h; sourceTree = "<group>"; };
+		D282511003E90D2A105A746B24215541 /* BinaryStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BinaryStream.h; path = SDK/lib/CommLibiOS/include/BinaryStream.h; sourceTree = "<group>"; };
+		D40FCD996DD22409772AA784F59D4447 /* cpu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cpu.h; path = "SDK/lib/libav-11.4/include/libavutil/cpu.h"; sourceTree = "<group>"; };
+		D499267F777A1D425EB435B005CD0E65 /* IClientSharedObjectDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IClientSharedObjectDelegate.h; path = SDK/lib/CommLibiOS/include/IClientSharedObjectDelegate.h; sourceTree = "<group>"; };
+		D510DB5B3CAE22619B24063C088F95F4 /* Backendless-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Backendless-Bridging-Header.h"; path = "SDK/lib/backendless/include/Backendless-Bridging-Header.h"; sourceTree = "<group>"; };
+		D6A874D40B6188716A05CBDDAA7FA48B /* IAtomicCounters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IAtomicCounters.h; path = SDK/lib/backendless/include/IAtomicCounters.h; sourceTree = "<group>"; };
+		D795F7FD12D48EF39EDC958AD8AEFABA /* crc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crc.h; path = "SDK/lib/libav-11.4/include/libavutil/crc.h"; sourceTree = "<group>"; };
+		D90DF02B768601A221062481E39166D2 /* Responder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Responder.h; path = SDK/lib/CommLibiOS/include/Responder.h; sourceTree = "<group>"; };
+		DA92A886FF2AAC5E13936C4FB6A6B1AA /* BackendlessSimpleQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessSimpleQuery.h; path = SDK/lib/backendless/include/BackendlessSimpleQuery.h; sourceTree = "<group>"; };
+		DCC44FEEF6F15E01C5CB29B559DA73DA /* BackendlessEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessEntity.h; path = SDK/lib/backendless/include/BackendlessEntity.h; sourceTree = "<group>"; };
+		DEADEE78F54CD75753054DEE2126028B /* mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mem.h; path = "SDK/lib/libav-11.4/include/libavutil/mem.h"; sourceTree = "<group>"; };
+		E1BDD481795E5BE76A83FA98EBBF27D2 /* avstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avstring.h; path = "SDK/lib/libav-11.4/include/libavutil/avstring.h"; sourceTree = "<group>"; };
+		E25B3AD42F262CB3018C1E2F149007DA /* intfloat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = intfloat.h; path = "SDK/lib/libav-11.4/include/libavutil/intfloat.h"; sourceTree = "<group>"; };
+		E46DE5382311AA808E0F1AB16476989C /* Pods-Video Q&AUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Video Q&AUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5A51DF05EC900D0D4E51A98DAA63DFE /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common.h; path = "SDK/lib/libav-11.4/include/libavutil/common.h"; sourceTree = "<group>"; };
+		E7AC42C650A4315AAF58248215A888F3 /* AtomicCountersFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AtomicCountersFactory.h; path = SDK/lib/backendless/include/AtomicCountersFactory.h; sourceTree = "<group>"; };
+		E7B1A8871BDAAB7AA798239471B72B98 /* BackendlessUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessUser.h; path = SDK/lib/backendless/include/BackendlessUser.h; sourceTree = "<group>"; };
+		E93A0A684AFAAA4F09BD9C1B1765BD3A /* avfiltergraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avfiltergraph.h; path = "SDK/lib/libav-11.4/include/libavfilter/avfiltergraph.h"; sourceTree = "<group>"; };
+		E989DF6B8E773D46F36627EC7DFF4E8F /* Pods-Video Q&A-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Video Q&A-umbrella.h"; sourceTree = "<group>"; };
+		EA8C8905249BDFA2C8BC68A39E6E61F7 /* random_seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = random_seed.h; path = "SDK/lib/libav-11.4/include/libavutil/random_seed.h"; sourceTree = "<group>"; };
+		EB0997088F14371A451D1DFCD9FBE0BA /* BackendlessFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BackendlessFile.h; path = SDK/lib/backendless/include/BackendlessFile.h; sourceTree = "<group>"; };
+		EBBA1ABFBE76D639209BDC215B6B1B1B /* QueryOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QueryOptions.h; path = SDK/lib/backendless/include/QueryOptions.h; sourceTree = "<group>"; };
+		ED885BFED10C3EE2EFDB3691EAFF7D8D /* Pods-Video Q&A-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Video Q&A-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE0C07A5B165357301724B1358E8BA06 /* FlashorbBinaryWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlashorbBinaryWriter.h; path = SDK/lib/CommLibiOS/include/FlashorbBinaryWriter.h; sourceTree = "<group>"; };
+		EE4CA80D18A684730B5DCF8234D82FAD /* Pods-Video Q&ATests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Video Q&ATests-resources.sh"; sourceTree = "<group>"; };
+		EF4CFF8E526445604721D0085C32E35E /* Pods-Video Q&AUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Video Q&AUITests-umbrella.h"; sourceTree = "<group>"; };
+		EF6D2FEAE98AC6B99F4A8C0F5146BF78 /* xvmc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xvmc.h; path = "SDK/lib/libav-11.4/include/libavcodec/xvmc.h"; sourceTree = "<group>"; };
+		EFB19B94E729BDF45D12B28FAF7B53B5 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = "SDK/lib/libav-11.4/include/libavutil/hmac.h"; sourceTree = "<group>"; };
+		EFBB25CF79CB7ECBD8300F8732F4F985 /* Pods-Video Q&AUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Video Q&AUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F212D156C9F90CF86276AC5B6A75366F /* Backendless-With-Media-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Backendless-With-Media-Bridging-Header.h"; path = "SDK/lib/backendless/include/Backendless-With-Media-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3236476DE311A43054AE703CE38F5CC /* samplefmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = samplefmt.h; path = "SDK/lib/libav-11.4/include/libavutil/samplefmt.h"; sourceTree = "<group>"; };
+		F38BED1B24E0E19EB305731FD38D484F /* version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = version.h; path = "SDK/lib/libav-11.4/include/libavcodec/version.h"; sourceTree = "<group>"; };
+		F456F434913784F48702DE9B667ACA70 /* DeliveryOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeliveryOptions.h; path = SDK/lib/backendless/include/DeliveryOptions.h; sourceTree = "<group>"; };
+		F481B26A6649F0B3963D504733864E1F /* Pods-Video Q&ATests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Video Q&ATests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4999729958D1FA2144768B311A02F36 /* GeoCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeoCategory.h; path = SDK/lib/backendless/include/GeoCategory.h; sourceTree = "<group>"; };
+		F5637033A0983603EF1C7AC0C51C932C /* Logging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Logging.h; path = SDK/lib/backendless/include/Logging.h; sourceTree = "<group>"; };
+		F5E907ECA527C34792BE0FACEDAAC1FD /* Pods-Video Q&A-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Video Q&A-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6EBCC7C73E3E997FF2D997CCAEA953B /* swscale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swscale.h; path = "SDK/lib/libav-11.4/include/libswscale/swscale.h"; sourceTree = "<group>"; };
+		F77C08158BE988EC065B5E0B63B187C2 /* pixfmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixfmt.h; path = "SDK/lib/libav-11.4/include/libavutil/pixfmt.h"; sourceTree = "<group>"; };
+		F77ECD6FAC21B08B985A1EC477984859 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = "SDK/lib/libav-11.4/include/libavutil/buffer.h"; sourceTree = "<group>"; };
+		FD54A3ED5F4CDB54FD4C6BED1B07EC3B /* SubscriptionOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SubscriptionOptions.h; path = SDK/lib/backendless/include/SubscriptionOptions.h; sourceTree = "<group>"; };
+		FF55D75382CBF48DDD2BA7DC25EDA27C /* base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base64.h; path = "SDK/lib/libav-11.4/include/libavutil/base64.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		057E6AC47491C0227085A1B7B035D4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E28DB1C62B162010F2558FA24289071 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C5C3390D6B0C7325BC8E3DF925BA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE157308661AEAFD792CCFBAACE9060B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8666B87A66146E45DECBACDEBD72BE7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B716BE9BAD589DFF505DDE69E0C4A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177150F9EAF405C6F92AD5B79B132BF8 /* Pods-Video Q&ATests */ = {
+			isa = PBXGroup;
+			children = (
+				AA21D0213ABA347E6357A59C29EBFA5A /* Info.plist */,
+				D1719EFBF1B4B354DFFC442397FEFFC1 /* Pods-Video Q&ATests.modulemap */,
+				0C39A7D1F670B8840F724FC9A0D5274C /* Pods-Video Q&ATests-acknowledgements.markdown */,
+				F481B26A6649F0B3963D504733864E1F /* Pods-Video Q&ATests-acknowledgements.plist */,
+				A0BFA472F0DD3D7941C7016D6AC73D8C /* Pods-Video Q&ATests-dummy.m */,
+				A7516923B2139FCF47CD84E5E1300582 /* Pods-Video Q&ATests-frameworks.sh */,
+				EE4CA80D18A684730B5DCF8234D82FAD /* Pods-Video Q&ATests-resources.sh */,
+				78CF09BDB99FFC3797ED5F7030232EE2 /* Pods-Video Q&ATests-umbrella.h */,
+				99A7477610FDB54F8F410AFA8103A8EE /* Pods-Video Q&ATests.debug.xcconfig */,
+				135C7295FD797DC690296EAF1ED49819 /* Pods-Video Q&ATests.release.xcconfig */,
+			);
+			name = "Pods-Video Q&ATests";
+			path = "Target Support Files/Pods-Video Q&ATests";
+			sourceTree = "<group>";
+		};
+		1C982C56E0D81D615FE57207D9A36BA4 /* Pods-Video Q&AUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30CF7017911B1ED2EBED82B96C8B7CB1 /* Info.plist */,
+				76C69CC3473A60C462D2007D4C4B84B2 /* Pods-Video Q&AUITests.modulemap */,
+				911AC7C8BB865E8076950C4D499027B7 /* Pods-Video Q&AUITests-acknowledgements.markdown */,
+				E46DE5382311AA808E0F1AB16476989C /* Pods-Video Q&AUITests-acknowledgements.plist */,
+				61CDDA793724F5CF491130493DAD9922 /* Pods-Video Q&AUITests-dummy.m */,
+				B9BCB2E43E6300D78C53F614A3006581 /* Pods-Video Q&AUITests-frameworks.sh */,
+				4378938C990BDB6BBADE8E298E53BEBA /* Pods-Video Q&AUITests-resources.sh */,
+				EF4CFF8E526445604721D0085C32E35E /* Pods-Video Q&AUITests-umbrella.h */,
+				EFBB25CF79CB7ECBD8300F8732F4F985 /* Pods-Video Q&AUITests.debug.xcconfig */,
+				C8A4DF5824EA0700B019EBD65C0140F4 /* Pods-Video Q&AUITests.release.xcconfig */,
+			);
+			name = "Pods-Video Q&AUITests";
+			path = "Target Support Files/Pods-Video Q&AUITests";
+			sourceTree = "<group>";
+		};
+		243B17326A64B8B046A1BA4AEFB87862 /* Pods-Video Q&A */ = {
+			isa = PBXGroup;
+			children = (
+				7103963E5D6B2358B4E1F08B46E35277 /* Info.plist */,
+				72CEB449515E94E9FFD32162E06716DF /* Pods-Video Q&A.modulemap */,
+				ED885BFED10C3EE2EFDB3691EAFF7D8D /* Pods-Video Q&A-acknowledgements.markdown */,
+				F5E907ECA527C34792BE0FACEDAAC1FD /* Pods-Video Q&A-acknowledgements.plist */,
+				B47D84A893C9F6E1CDD6ABB4FE24CD20 /* Pods-Video Q&A-dummy.m */,
+				71E5D8B836687B07D25EEA8CB10C3C10 /* Pods-Video Q&A-frameworks.sh */,
+				19C80835262B9BBA9872ADA72A691365 /* Pods-Video Q&A-resources.sh */,
+				E989DF6B8E773D46F36627EC7DFF4E8F /* Pods-Video Q&A-umbrella.h */,
+				73048ACB19809229429693179AC197B0 /* Pods-Video Q&A.debug.xcconfig */,
+				525C4B2DBAD30C1EC56B9BCBD9897ADF /* Pods-Video Q&A.release.xcconfig */,
+			);
+			name = "Pods-Video Q&A";
+			path = "Target Support Files/Pods-Video Q&A";
+			sourceTree = "<group>";
+		};
+		265E5C2CC9168FB9C89E9D0E2BCE1B99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CFC0402D302048F3760227239E724B7 /* Pods_Video_Q_A.framework */,
+				BCD36116457299B4D4CC919B246A1F48 /* Pods_Video_Q_ATests.framework */,
+				6D40B978335D1D64E9CEC2F4788117AC /* Pods_Video_Q_AUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C3AA9E0CB21156FC17C9D5F5213ADA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				243B17326A64B8B046A1BA4AEFB87862 /* Pods-Video Q&A */,
+				177150F9EAF405C6F92AD5B79B132BF8 /* Pods-Video Q&ATests */,
+				1C982C56E0D81D615FE57207D9A36BA4 /* Pods-Video Q&AUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DD918748DC76FE64BFD6896C54291FF4 /* Pods */,
+				265E5C2CC9168FB9C89E9D0E2BCE1B99 /* Products */,
+				5C3AA9E0CB21156FC17C9D5F5213ADA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C508BA83D994719A1C5F1B19BE1B788C /* Backendless-ios-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				3A5C9BF75FB248FD69413A3B0DD7DDCC /* AbstractProperty.h */,
+				C45DDB258DCA2448AC17023C20C725A0 /* AbstractQuery.h */,
+				6CF2FEC3EA1B50F6D2E82D0A2A103CF1 /* adler32.h */,
+				0A6D0202B97D3B251566A31B4A3E0E68 /* aes.h */,
+				077709BBF365180B93CE2546960259B8 /* AMFSerializer.h */,
+				32DE8BBC83884E6B05D7573402E95E90 /* AtomicCounters.h */,
+				E7AC42C650A4315AAF58248215A888F3 /* AtomicCountersFactory.h */,
+				5970A280A78694B4DA229F62E054ABCD /* attributes.h */,
+				2FE8FB0B2E28369821294551CC639220 /* audio_fifo.h */,
+				13450C38CE2DCCD4B002F2614640D52F /* audioconvert.h */,
+				4C56FA241AC286F6DAA03650B6F23287 /* avassert.h */,
+				63B37DD6CD8B843176D13A57A99EAE3A /* avcodec.h */,
+				379164BE43C8E2BE0C67F7F724597709 /* avconfig.h */,
+				3E76A962C864AABE9639E7FC76E4C8B9 /* avdevice.h */,
+				6C775FD1079CF3609EA8447E6DB688B0 /* avfft.h */,
+				0FC6995A7BABE32886572CEACFF3F4C4 /* avfilter.h */,
+				E93A0A684AFAAA4F09BD9C1B1765BD3A /* avfiltergraph.h */,
+				25D40BF03AC8BD506D1DB9854021CC5A /* avformat.h */,
+				8C4503AA596A43451377E230B939A7EB /* avio.h */,
+				21992603F4AECC366A0D8C720F5C16CE /* avresample.h */,
+				E1BDD481795E5BE76A83FA98EBBF27D2 /* avstring.h */,
+				1E943CFA07A51BAF3F6C290B1BFD0F5C /* avutil.h */,
+				26B0CEF6EC31D1DECCCC37B14B9DAAA4 /* Backendless.h */,
+				D510DB5B3CAE22619B24063C088F95F4 /* Backendless-Bridging-Header.h */,
+				F212D156C9F90CF86276AC5B6A75366F /* Backendless-With-Media-Bridging-Header.h */,
+				CAA301EEA08C653B87D2F0D10B92436A /* BackendlessBeacon.h */,
+				6C27C7C1300282308502F054F4F2C645 /* BackendlessCachePolicy.h */,
+				8F9BDE50371B897211FC728AAC99B606 /* BackendlessCacheProtocol.h */,
+				683969A665AE643F7C86EF5F07D2E5F2 /* BackendlessCollection.h */,
+				9691D5BAEE78BC015EAD7811C885A6A8 /* BackendlessDataQuery.h */,
+				DCC44FEEF6F15E01C5CB29B559DA73DA /* BackendlessEntity.h */,
+				EB0997088F14371A451D1DFCD9FBE0BA /* BackendlessFile.h */,
+				2102691A23310512D6C698676343B268 /* BackendlessGeoQuery.h */,
+				DA92A886FF2AAC5E13936C4FB6A6B1AA /* BackendlessSimpleQuery.h */,
+				E7B1A8871BDAAB7AA798239471B72B98 /* BackendlessUser.h */,
+				FF55D75382CBF48DDD2BA7DC25EDA27C /* base64.h */,
+				A4A6DDE1DC23F148DA326FF34AFF2B1A /* BEAnnotation.h */,
+				5A12D3E6E3F08F755F2A6400F6260794 /* BECollectionView.h */,
+				6C92EAE88972D41507B1CDC8B98F50BB /* BEFileInfo.h */,
+				3ED4543530F741E4675B3B9F46A0846B /* BEMapView.h */,
+				4992B5751AF3C83550E3FA0F7BD2C0F8 /* BESubscription.h */,
+				3D10E5159ECFF9F08D0E75DC3A22DEF2 /* BETableView.h */,
+				9A2D05831BB534169B227A28BB1A6D92 /* BinaryCodec.h */,
+				D282511003E90D2A105A746B24215541 /* BinaryStream.h */,
+				79561331847C160C03E793054BC4F603 /* blowfish.h */,
+				03E9D400F387BD3793A8B6AA1DC6B441 /* BodyParts.h */,
+				A17FFEFDE69E7E31CE3985543BFA5434 /* BroadcastStreamClient.h */,
+				B75FD267AA4E4E8539E6CC4C4867B6D4 /* bswap.h */,
+				F77ECD6FAC21B08B985A1EC477984859 /* buffer.h */,
+				2CCD3B016D47032E9C7FECC5A9BFBD71 /* buffersink.h */,
+				33381C2FE2D7F729977B8D59D8497D15 /* buffersrc.h */,
+				50348BDF5488483238E9507157F06D2D /* CacheFactory.h */,
+				B293F29E99F54F3DB640B235E497F3F4 /* CacheService.h */,
+				49D89D98D75144F52F4EF8ABEC7F4DEC /* channel_layout.h */,
+				E5A51DF05EC900D0D4E51A98DAA63DFE /* common.h */,
+				D40FCD996DD22409772AA784F59D4447 /* cpu.h */,
+				D795F7FD12D48EF39EDC958AD8AEFABA /* crc.h */,
+				C609AE63985B06A4CA963A5934578162 /* CustomService.h */,
+				A899BC5ED80D60ECBDF347078E51DB3D /* DataPermission.h */,
+				56B67AA0280457C3B3B4B38B9CF99B7C /* DataStoreFactory.h */,
+				C3E5DE6069C0C568B0AB103C3966B78B /* DEBUG.h */,
+				F456F434913784F48702DE9B667ACA70 /* DeliveryOptions.h */,
+				2A430C92A8C9FDBD78D12DAF1C99D97C /* DeviceRegistration.h */,
+				8CE2DFF70F1B9690899292CDA175C414 /* dict.h */,
+				99FB3F9DE37D27026C8A4E85584C1688 /* display.h */,
+				3E132A0EE2F097873F24596410138C53 /* downmix_info.h */,
+				0A9A2C25BCBD7DEDE91EB25C91B50CB5 /* dv_profile.h */,
+				6FDF4CDA33326DD4FC709830520DA1AB /* dxva2.h */,
+				52034C92B7176FB22311981D792BA23A /* error.h */,
+				C6EAFAD577712CFA14348B9428650D0D /* eval.h */,
+				6E90EC4ADF93069870F65BB46138E747 /* Events.h */,
+				8C8B93FEEC89B21A5C0B41C40BC39B21 /* fifo.h */,
+				37F1E5DA61653E4BDA9231AF69B74C86 /* file.h */,
+				C065D4F255E926E9DD4E69E24303D7C6 /* FilePermission.h */,
+				987B6B04C26080C7BF08DE0BC528462A /* FileService.h */,
+				8FBA78C0C7E859404590FBB6E97F943D /* FlashorbBinaryReader.h */,
+				EE0C07A5B165357301724B1358E8BA06 /* FlashorbBinaryWriter.h */,
+				64027BAA4E0AE520A9207CFFFF2D8FF6 /* frame.h */,
+				F4999729958D1FA2144768B311A02F36 /* GeoCategory.h */,
+				15016EF7BD3D9263C675985D8D1502D1 /* GeoCluster.h */,
+				46CC6CE9A8D893E984DB7B230591D9E3 /* GeoFence.h */,
+				547793FB9541CA337AAEA98E84F3AC58 /* GeoPoint.h */,
+				C294283752A65C5992BF5807D80CE6CE /* GeoService.h */,
+				235A51AF73BAC7D3E82CD4753DCEB65E /* HashMap.h */,
+				EFB19B94E729BDF45D12B28FAF7B53B5 /* hmac.h */,
+				D6A874D40B6188716A05CBDDAA7FA48B /* IAtomicCounters.h */,
+				6072B1690EA56924E53123BFD641DEF2 /* IAttributeStore.h */,
+				70F2C2E5E9E1143E807137A1B271183C /* ICacheService.h */,
+				8B7A2997CBCE0EDD54798D32E7316435 /* ICallback.h */,
+				B6CB7DB404B6BFD8E8A7E24E6C05587C /* IClientSharedObject.h */,
+				D499267F777A1D425EB435B005CD0E65 /* IClientSharedObjectDelegate.h */,
+				4275EDE72DD06A98B571EE58D8E7ED2B /* IDataStore.h */,
+				85A698AFAFBEA0F79D4A11E21B65E793 /* IMediaStreamer.h */,
+				BF7D2F0DB385CCE68033B9219E918344 /* imgutils.h */,
+				E25B3AD42F262CB3018C1E2F149007DA /* intfloat.h */,
+				420ADC995C5493DF6664A93F4AFAB7AC /* intreadwrite.h */,
+				B5CB7A90D7149D634D52FABF0311C641 /* IPendingServiceCallback.h */,
+				C2126087D92068D037F4A21321E6E20F /* IPersistable.h */,
+				7F26BEF9F519EEB01F0334D4326266B4 /* IPresenceListener.h */,
+				912075D75E0214A389E8D1093CA5CC8D /* IRTMProtocol.h */,
+				831F5F385C2E553B1726D30BCC88EADB /* IServiceCall.h */,
+				9F5B9A39E63153F9F434B90931063791 /* ISharedObjectListener.h */,
+				5B970400111801CA0D88A3AEB69BBDA0 /* lfg.h */,
+				9D68DE930284F586C2869812660A9EB1 /* LocationTracker.h */,
+				2DFC8E50559F45A37A802BE6223CE495 /* log.h */,
+				7575753A72FA2C6EA0E3F8BB3FC52C79 /* Logger.h */,
+				F5637033A0983603EF1C7AC0C51C932C /* Logging.h */,
+				AFD75306D916CC28C8815B3D0BFFA85D /* macros.h */,
+				C35EEF55E1A9C690FC6747E3456C7CB9 /* mathematics.h */,
+				1672011877E416152E0F45078CEADACF /* md5.h */,
+				D218669F9F327BB4B40217BF48CC64D6 /* MediaPlaybackOptions.h */,
+				066FF63E8F68CF39F47827180817D845 /* MediaPlayer.h */,
+				2A097F938279DE701DA9156BAA42DE66 /* MediaPublisher.h */,
+				7B7F5BEA62DA4C7F3B40BCDA0C6B988F /* MediaPublishOptions.h */,
+				43CD6DC7B11132F286FFE4A138F52AAA /* MediaService.h */,
+				B20230FA7F363EBBB1F5CC8BF5F83443 /* MediaStreamPlayer.h */,
+				DEADEE78F54CD75753054DEE2126028B /* mem.h */,
+				19BAE11D9DB548151CB936A84A893C6B /* MemoryTicker.h */,
+				C30E109B264FA1ED63783B2786B3FC79 /* Message.h */,
+				59622AF64DEFA3F522A6D697CABB91A6 /* MessageStatus.h */,
+				C8FE7E21BA5268805677638CE0C8C52F /* MessagingService.h */,
+				A024D34AAA6719194E4657DA27E99FF9 /* MPMediaData.h */,
+				31883C4326F6FCBB73AB82E0E3F72C61 /* MPMediaDecoder.h */,
+				18C5E4725A3B13DA798B0A246791C904 /* MPMediaEncoder.h */,
+				2333E4C1C8175215A8D3268C016A453A /* ObjectProperty.h */,
+				AC8C22DA3BADA1915671AC2B5C3D536E /* old_pix_fmts.h */,
+				77E5B38DEF53ECF5F4B486E9527611C5 /* opt.h */,
+				5FF7677730C8985CDF12861367275219 /* parseutils.h */,
+				BE9B0748388122D8160F421555C6418F /* PersistenceService.h */,
+				4299922302F3CC86F7221764C45119F1 /* pixdesc.h */,
+				F77C08158BE988EC065B5E0B63B187C2 /* pixfmt.h */,
+				36F0121DDABD20A3D732A479B9F1FFF1 /* Presence.h */,
+				1815868FB19BB3DE13B8FA96584B185A /* ProtectedBackendlessGeoQuery.h */,
+				7D864C03152281BB11EFD07AB7B32A99 /* PublishOptions.h */,
+				EBBA1ABFBE76D639209BDC215B6B1B1B /* QueryOptions.h */,
+				EA8C8905249BDFA2C8BC68A39E6E61F7 /* random_seed.h */,
+				A06AEBAA625A8180EE1722B92CC064C2 /* rational.h */,
+				5427B5D6C67085417B7778B89A21D517 /* replaygain.h */,
+				D90DF02B768601A221062481E39166D2 /* Responder.h */,
+				959E2D9AB7DA1555D48AA08B2F858205 /* RTMPClient.h */,
+				F3236476DE311A43054AE703CE38F5CC /* samplefmt.h */,
+				07CAD63078D601BD365A1930C57E7362 /* sha.h */,
+				4F09EE8F1203FC5679E9D6C4C7E66690 /* speex.h */,
+				A6AFBCE694CA5EC15A9E3A9C6EDA17BF /* speex_bits.h */,
+				495E4F23DC0655C275F60E966466499E /* speex_callbacks.h */,
+				34B25A5E1B0BE89F2C772F8B9DF3E245 /* speex_config_types.h */,
+				07ED392BB7153B00D07736F9CC3A21C2 /* speex_header.h */,
+				37AF6BC3BDE8A08E044D638B4D000E43 /* speex_stereo.h */,
+				44788A6D38FFB889223DB16FC91FB71B /* speex_types.h */,
+				4ECBA6BBC15A94DAF8F6978780B5A1C5 /* stereo3d.h */,
+				FD54A3ED5F4CDB54FD4C6BED1B07EC3B /* SubscriptionOptions.h */,
+				F6EBCC7C73E3E997FF2D997CCAEA953B /* swscale.h */,
+				6BBE898B600AEF94A4D346A0F173A3B4 /* Types.h */,
+				825224D18537EFE5C83169A47F7D8A3D /* UserProperty.h */,
+				CD0BB699D422CFCB499EAC7706ADCC0F /* UserService.h */,
+				2EED590C4D773D230D4F90B2434B3C8D /* vaapi.h */,
+				5104D3F04E96CD403FAB9041B20EF236 /* vda.h */,
+				186CD40F8332A3C2C6A7580AC0DDD828 /* vdpau.h */,
+				16DB6B6E9E7E5F45638410B67668DA20 /* version.h */,
+				5559EAE5B1C412001F1D4B1D3397EDAB /* version.h */,
+				B702555DBDAEDE09D9D193218FE682A7 /* version.h */,
+				2CB9645BBEA39F58FB3855EB6D5B7E3F /* version.h */,
+				C77DC3154C4E59709BDFDD4871E31D25 /* version.h */,
+				F38BED1B24E0E19EB305731FD38D484F /* version.h */,
+				3E9DEDAC1A02A7B8774454A3A940EC0C /* version.h */,
+				BD02B2704F3D7DD272877AC7F0A06C83 /* VideoPlayer.h */,
+				6DD76C869D715758B5548F34F2036BF7 /* WeborbClient.h */,
+				5C180EF6B5DEB271CE9924A4C74C1694 /* x264.h */,
+				58B52BE82D846EFB0098EA4CEBC629EC /* x264_config.h */,
+				A1DE8BEAE76E68CD87FAA26D05588558 /* xtea.h */,
+				EF6D2FEAE98AC6B99F4A8C0F5146BF78 /* xvmc.h */,
+			);
+			path = "Backendless-ios-SDK";
+			sourceTree = "<group>";
+		};
+		DD918748DC76FE64BFD6896C54291FF4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C508BA83D994719A1C5F1B19BE1B788C /* Backendless-ios-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FDC3123B13D893E69BA9D44F975F402 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D277595F5FA968C9A1835C4DBCB2073C /* Pods-Video Q&ATests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B063FAC5904560B204F0A71F4AB614 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A5EF04C2C471D6125D7C70FB54E55A /* Pods-Video Q&A-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC1BC6AF158D6D2EEA352E18ECAFA99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F093ECABE834D8841AAF033A2ABCC5E /* Pods-Video Q&AUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E844ACE7FCED885F3C0CD52209A2C45 /* Pods-Video Q&ATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532C648925FE5A7F0FB4CB3EA8F8E370 /* Build configuration list for PBXNativeTarget "Pods-Video Q&ATests" */;
+			buildPhases = (
+				1A318F3990EDC7C1F18A1135B7ADBFDD /* Sources */,
+				63C5C3390D6B0C7325BC8E3DF925BA33 /* Frameworks */,
+				1FDC3123B13D893E69BA9D44F975F402 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Video Q&ATests";
+			productName = "Pods-Video Q&ATests";
+			productReference = BCD36116457299B4D4CC919B246A1F48 /* Pods_Video_Q_ATests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7E6350612958A5EF96C025D2A4D1EBF /* Pods-Video Q&A */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3363E8099339664BA7591C8FDA14DF03 /* Build configuration list for PBXNativeTarget "Pods-Video Q&A" */;
+			buildPhases = (
+				E87682DD78668736F3248D9798EA8F73 /* Sources */,
+				057E6AC47491C0227085A1B7B035D4C9 /* Frameworks */,
+				A7B063FAC5904560B204F0A71F4AB614 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Video Q&A";
+			productName = "Pods-Video Q&A";
+			productReference = 3CFC0402D302048F3760227239E724B7 /* Pods_Video_Q_A.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEF74BD7CEC1545B7090353AE3003545 /* Pods-Video Q&AUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493E5BBCEFB6D30FE2B493C17044E9D8 /* Build configuration list for PBXNativeTarget "Pods-Video Q&AUITests" */;
+			buildPhases = (
+				1233309782BCA675EDE693BBF5C46CF0 /* Sources */,
+				8666B87A66146E45DECBACDEBD72BE7F /* Frameworks */,
+				CAC1BC6AF158D6D2EEA352E18ECAFA99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Video Q&AUITests";
+			productName = "Pods-Video Q&AUITests";
+			productReference = 6D40B978335D1D64E9CEC2F4788117AC /* Pods_Video_Q_AUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					F7E6350612958A5EF96C025D2A4D1EBF = {
+						DevelopmentTeam = T48JNSP89R;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 265E5C2CC9168FB9C89E9D0E2BCE1B99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7E6350612958A5EF96C025D2A4D1EBF /* Pods-Video Q&A */,
+				6E844ACE7FCED885F3C0CD52209A2C45 /* Pods-Video Q&ATests */,
+				FEF74BD7CEC1545B7090353AE3003545 /* Pods-Video Q&AUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1233309782BCA675EDE693BBF5C46CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AF3019B706FD4924979E50D4498AD7 /* Pods-Video Q&AUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A318F3990EDC7C1F18A1135B7ADBFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD2D4D8EA22E5531029A707BC82EB44 /* Pods-Video Q&ATests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87682DD78668736F3248D9798EA8F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F643DAC04769921FF3562E5F6946BA65 /* Pods-Video Q&A-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18FE1315C3F7941CCB0D96843FDFFC8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A7477610FDB54F8F410AFA8103A8EE /* Pods-Video Q&ATests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Video Q&ATests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Video Q&ATests/Pods-Video Q&ATests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Video_Q_ATests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		359753C8FFABEA04629AF6E5E91BAADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A4DF5824EA0700B019EBD65C0140F4 /* Pods-Video Q&AUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Video Q&AUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Video Q&AUITests/Pods-Video Q&AUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Video_Q_AUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3960301E60B538D398CCA761CFC8CF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73048ACB19809229429693179AC197B0 /* Pods-Video Q&A.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Video Q&A/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Video Q&A/Pods-Video Q&A.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Video_Q_A;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52340B6F4F86E8EF3243E2D21E4FFFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBB25CF79CB7ECBD8300F8732F4F985 /* Pods-Video Q&AUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Video Q&AUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Video Q&AUITests/Pods-Video Q&AUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Video_Q_AUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5EDEBDB8DAB58F635F1C3C2369B56A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135C7295FD797DC690296EAF1ED49819 /* Pods-Video Q&ATests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Video Q&ATests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Video Q&ATests/Pods-Video Q&ATests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Video_Q_ATests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8C98A2167AC24DB725862020A428CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525C4B2DBAD30C1EC56B9BCBD9897ADF /* Pods-Video Q&A.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Video Q&A/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Video Q&A/Pods-Video Q&A.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Video_Q_A;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3363E8099339664BA7591C8FDA14DF03 /* Build configuration list for PBXNativeTarget "Pods-Video Q&A" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3960301E60B538D398CCA761CFC8CF2E /* Debug */,
+				B8C98A2167AC24DB725862020A428CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493E5BBCEFB6D30FE2B493C17044E9D8 /* Build configuration list for PBXNativeTarget "Pods-Video Q&AUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52340B6F4F86E8EF3243E2D21E4FFFE5 /* Debug */,
+				359753C8FFABEA04629AF6E5E91BAADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		532C648925FE5A7F0FB4CB3EA8F8E370 /* Build configuration list for PBXNativeTarget "Pods-Video Q&ATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE1315C3F7941CCB0D96843FDFFC8F /* Debug */,
+				5EDEBDB8DAB58F635F1C3C2369B56A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

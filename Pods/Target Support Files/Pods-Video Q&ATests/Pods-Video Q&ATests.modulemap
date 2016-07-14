@@ -1,0 +1,6 @@
+framework module Pods_Video_Q_ATests {
+  umbrella header "Pods-Video Q&ATests-umbrella.h"
+
+  export *
+  module * { export * }
+}
